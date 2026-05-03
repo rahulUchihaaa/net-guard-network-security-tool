@@ -1,27 +1,27 @@
-# 🔬 Malware Traffic Analysis Tool
+#  Malware Traffic Analysis Tool
 
-## 🚀 Overview
+##  Overview
 
 This project analyzes network traffic capture files (**PCAP**) to detect malicious activity and reconstruct attack behavior.
 It helps identify compromised systems by analyzing patterns such as DNS anomalies, command-and-control (C2) communication, and suspicious HTTP activity.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-* 🔍 **DNS Analysis**
+*  **DNS Analysis**
   Detects suspicious domains using entropy and length-based heuristics.
 
-* ☠️ **C2 Beaconing Detection**
+*  **C2 Beaconing Detection**
   Identifies periodic communication between infected hosts and attacker servers.
 
-* 🌐 **HTTP Traffic Inspection**
+*  **HTTP Traffic Inspection**
   Flags suspicious requests (e.g., webshells, command execution patterns).
 
-* 🔗 **Attack Correlation Engine**
+*  **Attack Correlation Engine**
   Links multiple events into attack chains (DNS → IP → Beaconing → Spread).
 
-* 📊 **Risk Scoring System**
+*  **Risk Scoring System**
   Assigns severity levels:
 
   * CRITICAL
@@ -29,21 +29,21 @@ It helps identify compromised systems by analyzing patterns such as DNS anomalie
   * MEDIUM
   * LOW
 
-* 🗺️ **GeoIP Enrichment**
+*  **GeoIP Enrichment**
   Maps IP addresses to geographic locations.
 
-* 🧾 **Report Generation**
+*  **Report Generation**
 
   * JSON report (`mta_report.json`)
   * Text report (`mta_report.txt`)
 
-* 📈 **Network Visualization**
+*  **Network Visualization**
 
   * Generates `network_graph.png` for traffic relationships
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── malware_traffic_analyzer.py
@@ -52,15 +52,15 @@ It helps identify compromised systems by analyzing patterns such as DNS anomalie
 ├── network_graph.png
 ---
 
-## ▶️ How to Run
+##  How to Run
 
-### 1️⃣ Install dependencies
+### 1️ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run the analyzer
+### 2️ Run the analyzer
 
 ```bash
 python malware_traffic_analyzer.py pikabot.pcap
@@ -68,7 +68,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ---
 
-## 📸 Sample Output
+##  Sample Output
 
 (Add your screenshot here)
 
@@ -79,12 +79,12 @@ VERDICT : CRITICAL RISK — Active compromise
 
 ---
 
-## 🔥 Real Dataset Used
+##  Real Dataset Used
 
 This project was tested on a **real malware traffic dataset (Pikabot infection)** sourced from
 Malware-Traffic-Analysis.net
 
-### 🧬 Observed Behavior:
+###  Observed Behavior:
 
 * DNS queries to suspicious domains
 * C2 beaconing activity
@@ -94,7 +94,7 @@ Malware-Traffic-Analysis.net
 
 ---
 
-## ⚠️ Why This Matters
+##  Why This Matters
 
 Modern malware often hides within normal-looking traffic.
 This tool helps:
@@ -106,7 +106,7 @@ This tool helps:
 
 ---
 
-## 🧠 Example Detection Flow
+##  Example Detection Flow
 
 ```
 DNS Query → Suspicious Domain
@@ -122,7 +122,7 @@ Lateral Movement → Internal Spread
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Works on **offline PCAP files only** (not real-time yet)
 * Limited visibility into encrypted HTTPS payloads
@@ -130,7 +130,7 @@ Lateral Movement → Internal Spread
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Real-time packet sniffing
 * Machine learning–based anomaly detection
@@ -139,14 +139,14 @@ Lateral Movement → Internal Spread
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates how raw network packets can be transformed into actionable security insights.
 It bridges the gap between low-level packet data and high-level threat understanding.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Rahul Sonti
 
