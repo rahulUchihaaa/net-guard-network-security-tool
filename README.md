@@ -149,6 +149,8 @@ It bridges the gap between low-level packet data and high-level threat understan
 ##  Author
 
 📍 Gudivada, Andhra Pradesh, India
+
 🎯 Aspiring Security Researcher | KAIST Masters Applicant
-🔗 LinkedIn: your link
+
+🔗 LinkedIn: https://www.linkedin.com/in/rahul-sonti-b49288322/
 
