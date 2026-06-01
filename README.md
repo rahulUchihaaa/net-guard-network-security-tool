@@ -49,7 +49,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ---
 
-
+## 📸 Output
 
 ### Step 1 — Tool Startup & PCAP Loading
 
@@ -156,3 +156,7 @@ threat understanding.
 📍 Gudivada, Andhra Pradesh, India  
 🎯 Aspiring Security Researcher | KAIST Masters Applicant  
 🔗 [LinkedIn — Rahul Sonti](https://www.linkedin.com/in/rahul-sonti-b49288322/)
+---
+## 📄 License
+
+MIT License
