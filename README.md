@@ -73,7 +73,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 output
 
 ### Step 1 — Tool Startup & PCAP Loading
-![Tool Startup](screenshot_startup.png)
+https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
 
 > Loads 47,697 packets, fetches live threat intel from Feodo Tracker, 
 > resolves DNS maps, and extracts IP/HTTP traffic.
@@ -81,7 +81,7 @@ output
 ---
 
 ### Step 2 — Analysis Summary
-![Analysis Summary](screenshot_summary.png)
+https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
 
 > Produces a full kill-chain summary:
 > - **87 Total Alerts** across 3 Attack Chains
@@ -91,7 +91,7 @@ output
 ---
 
 ### Step 3 — Final Verdict & Risk Score Breakdown
-![Risk Score and Verdict](screenshot_verdict.png)
+[![Risk Score and Verdict](screenshot_verdict.png)](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_verdict.png.png)
 
 > Detailed scoring breakdown with attack chain correlations and final verdict:
 > **🚨 CRITICAL RISK — Active compromise. Contain immediately!**
