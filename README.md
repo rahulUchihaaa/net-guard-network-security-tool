@@ -63,8 +63,6 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ---
 
-output
-
 ### Step 1 — Tool Startup & PCAP Loading
 ![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png)
 
