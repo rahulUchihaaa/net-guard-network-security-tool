@@ -53,7 +53,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ### Step 1 — Tool Startup & PCAP Loading
 
-![Startup](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_startup.png.png)
+![Startup](screenshot_startup.png.png)
 > Loads 47,697 packets, fetches live threat intel from Feodo Tracker,
 > resolves DNS maps, and extracts IP/HTTP traffic.
 
@@ -61,7 +61,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ### Step 2 — Analysis Summary
 
-![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_summary.png.png)
+![Summary](screenshot_summary.png.png)
 > Produces a full kill-chain summary:
 >
 > - **87 Total Alerts** across 3 Attack Chains
@@ -72,7 +72,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ### Step 3 — Final Verdict & Risk Score Breakdown
 
-![image.alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_verdict.png.png)
+![Verdict](screenshot_verdict.png.png)
 > Detailed scoring breakdown with attack chain correlations and final verdict:
 > **🚨 CRITICAL RISK — Active compromise. Contain immediately!**
 
@@ -156,7 +156,9 @@ threat understanding.
 📍 Gudivada, Andhra Pradesh, India  
 🎯 Aspiring Security Researcher | KAIST Masters Applicant  
 🔗 [LinkedIn — Rahul Sonti](https://www.linkedin.com/in/rahul-sonti-b49288322/)
+
 ---
+
 ## 📄 License
 
 MIT License
