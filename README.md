@@ -45,13 +45,7 @@ pip install -r requirements.txt
 python malware_traffic_analyzer.py pikabot.pcap
 ```
 
----
-
-https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
-
-https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_summary.png.png
-
-https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_verdict.png.png
+--
 ---
 
 ## 🚀 How to Run
@@ -73,7 +67,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 output
 
 ### Step 1 — Tool Startup & PCAP Loading
-https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
+[![Tool Startup](screenshot_startup.png)](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png)
 
 > Loads 47,697 packets, fetches live threat intel from Feodo Tracker, 
 > resolves DNS maps, and extracts IP/HTTP traffic.
@@ -81,7 +75,7 @@ https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a
 ---
 
 ### Step 2 — Analysis Summary
-https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
+[![Analysis Summary](screenshot_summary.png)](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_summary.png.png)
 
 > Produces a full kill-chain summary:
 > - **87 Total Alerts** across 3 Attack Chains
