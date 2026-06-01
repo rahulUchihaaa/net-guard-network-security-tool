@@ -169,5 +169,3 @@ threat understanding.
 
 🔗 [LinkedIn — Rahul Sonti](https://www.linkedin.com/in/rahul-sonti-b49288322/)
 ---
-
-## 🔁 Example Detection Flow
