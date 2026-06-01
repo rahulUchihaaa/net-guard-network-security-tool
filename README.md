@@ -49,7 +49,7 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ---
 
-## 📸 Output
+
 
 ### Step 1 — Tool Startup & PCAP Loading
 
