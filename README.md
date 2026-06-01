@@ -45,7 +45,6 @@ pip install -r requirements.txt
 python malware_traffic_analyzer.py pikabot.pcap
 ```
 
---
 ---
 
 ## 🚀 How to Run
