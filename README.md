@@ -1,9 +1,10 @@
 # 🛡️ Net-Guard — Malware Traffic Analysis Tool
 
 ## Overview
-This project analyzes network traffic capture files (PCAP) to detect malicious activity 
-and reconstruct attack behavior. It helps identify compromised systems by analyzing 
-patterns such as DNS anomalies, command-and-control (C2) communication, and suspicious 
+
+This project analyzes network traffic capture files (PCAP) to detect malicious activity
+and reconstruct attack behavior. It helps identify compromised systems by analyzing
+patterns such as DNS anomalies, command-and-control (C2) communication, and suspicious
 HTTP activity.
 
 ---
@@ -22,27 +23,12 @@ HTTP activity.
 ---
 
 ## 📁 Project Structure
+
+```
 ├── malware_traffic_analyzer.py
-
 ├── README.md
-
 ├── requirements.txt
-
-├── network_graph.png
----
-
-## 🚀 How to Run
-
-### 1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the analyzer
-
-```bash
-python malware_traffic_analyzer.py pikabot.pcap
+└── network_graph.png
 ```
 
 ---
@@ -62,19 +48,22 @@ python malware_traffic_analyzer.py pikabot.pcap
 ```
 
 ---
+
+## 📸 Output
 
 ### Step 1 — Tool Startup & PCAP Loading
-![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png)
 
-> Loads 47,697 packets, fetches live threat intel from Feodo Tracker, 
+![Startup](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_startup.png.png)
+> Loads 47,697 packets, fetches live threat intel from Feodo Tracker,
 > resolves DNS maps, and extracts IP/HTTP traffic.
 
 ---
 
 ### Step 2 — Analysis Summary
-![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_summary.png.png)
 
+![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_summary.png.png)
 > Produces a full kill-chain summary:
+>
 > - **87 Total Alerts** across 3 Attack Chains
 > - ☠️ CRITICAL: 3 | 🔴 HIGH: 27 | ⚠️ MEDIUM: 56 | ℹ️ LOW: 1
 > - **TOTAL RISK SCORE: 209 pts**
@@ -82,8 +71,8 @@ python malware_traffic_analyzer.py pikabot.pcap
 ---
 
 ### Step 3 — Final Verdict & Risk Score Breakdown
-![image alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_verdict.png.png)
 
+![image.alt](https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/596c489938d4a80a30171c12ee5022d8085f83b4/screenshot_verdict.png.png)
 > Detailed scoring breakdown with attack chain correlations and final verdict:
 > **🚨 CRITICAL RISK — Active compromise. Contain immediately!**
 
@@ -92,17 +81,16 @@ python malware_traffic_analyzer.py pikabot.pcap
 ## 🌐 Network Graph
 
 ![Network Graph](network_graph.png)
-
 > Visual map of all detected traffic relationships between hosts.
 
 ---
 
 ## 🔬 Real Dataset Used
 
-Tested on a real malware traffic dataset **(Pikabot infection)** sourced from 
-[Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/)
+Tested on a real malware traffic dataset **(Pikabot infection)** sourced from [Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/)
 
-### Observed Behavior:
+### Observed Behavior
+
 - DNS queries to suspicious domains
 - C2 beaconing activity
 - Repeated HTTP requests (possible payload delivery)
@@ -120,20 +108,22 @@ Modern malware often hides within normal-looking traffic. This tool helps:
 - Understand attacker behavior
 - Assist incident response teams
 
+---
+
 ## 🔁 Example Detection Flow
+
+```
 DNS Query → Suspicious Domain
-↓
-
+        ↓
 Resolved IP → External Host
-↓
-
+        ↓
 Repeated Connections → Beaconing
-↓
-
+        ↓
 HTTP Activity → Payload Execution
-↓
-
+        ↓
 Lateral Movement → Internal Spread
+```
+
 ---
 
 ## ⚠️ Limitations
@@ -155,17 +145,14 @@ Lateral Movement → Internal Spread
 
 ## ✅ Conclusion
 
-This project demonstrates how raw network packets can be transformed into actionable 
-security insights. It bridges the gap between low-level packet data and high-level 
+This project demonstrates how raw network packets can be transformed into actionable
+security insights. It bridges the gap between low-level packet data and high-level
 threat understanding.
 
 ---
 
 ## 👤 Author
 
-📍 Gudivada, Andhra Pradesh, India
-
-🎯 Aspiring Security Researcher | KAIST Masters Applicant
-
+📍 Gudivada, Andhra Pradesh, India  
+🎯 Aspiring Security Researcher | KAIST Masters Applicant  
 🔗 [LinkedIn — Rahul Sonti](https://www.linkedin.com/in/rahul-sonti-b49288322/)
----
