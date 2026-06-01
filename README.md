@@ -23,8 +23,11 @@ HTTP activity.
 
 ## 📁 Project Structure
 ├── malware_traffic_analyzer.py
+
 ├── README.md
+
 ├── requirements.txt
+
 ├── network_graph.png
 ---
 
@@ -44,7 +47,11 @@ python malware_traffic_analyzer.py pikabot.pcap
 
 ---
 
-## 📸 Sample Output
+https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_startup.png.png
+
+https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_summary.png.png
+
+https://github.com/rahulUchihaaa/net-guard-network-security-tool/blob/4ada0f794a6469831bd5088179d788e50bbc36a0/screenshot_verdict.png.png
 ---
 
 ## 🚀 How to Run
@@ -125,12 +132,16 @@ Modern malware often hides within normal-looking traffic. This tool helps:
 ## 🔁 Example Detection Flow
 DNS Query → Suspicious Domain
 ↓
+
 Resolved IP → External Host
 ↓
+
 Repeated Connections → Beaconing
 ↓
+
 HTTP Activity → Payload Execution
 ↓
+
 Lateral Movement → Internal Spread
 ---
 
